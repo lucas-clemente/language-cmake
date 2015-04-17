@@ -1,6 +1,6 @@
 {
   "name": "language-cmake",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Syntax highlighting for CMake for Atom",
   "repository": {
     "type": "git",
