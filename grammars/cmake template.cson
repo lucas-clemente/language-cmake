@@ -1,0 +1,24 @@
+'fileTypes': [
+  'in'
+]
+'name': 'CMake Template'
+'patterns': [
+  {
+    'comment': 'CMake variable'
+    'begin': '@'
+    'beginCaptures':
+      '0':
+        'name': 'punctuation.definition.variable.begin.cmake'
+    'end': '@'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.variable.end.cmake'
+    'name': 'variable.parameter.cmake'
+    'patterns': [
+      {
+        'match': '\\w+'
+      }
+    ]
+  }
+]
+'scopeName': 'source.cmake.template'

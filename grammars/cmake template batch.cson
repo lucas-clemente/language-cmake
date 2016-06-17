@@ -1,0 +1,15 @@
+'fileTypes': [
+  'bat.in'
+  'cmd.in'
+]
+'name': 'CMake Template Batch'
+'patterns': [
+  {
+    'include': 'source.cmake.template'
+  }
+  {
+    'comment': 'Batch source'
+    'include': 'source.bat'
+  }
+]
+'scopeName': 'source.cmake.template.bat'

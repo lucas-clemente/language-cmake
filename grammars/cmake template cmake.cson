@@ -1,0 +1,14 @@
+'fileTypes': [
+  'cmake.in'
+]
+'name': 'CMake Template CMake'
+'patterns': [
+  {
+    'include': 'source.cmake.template'
+  }
+  {
+    'comment': 'CMake source'
+    'include': 'source.cmake'
+  }
+]
+'scopeName': 'source.cmake.template.cmake'
