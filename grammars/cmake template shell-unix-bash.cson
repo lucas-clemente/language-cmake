@@ -1,0 +1,35 @@
+'fileTypes': [
+  'sh.in'
+  'bash.in'
+  'ksh.in'
+  'zsh.in'
+  'zsh-theme.in'
+  'zshenv.in'
+  'zlogin.in'
+  'zlogout.in'
+  'zprofile.in'
+  'zshrc.in'
+  'bashrc.in'
+  'bash_profile.in'
+  'bash_login.in'
+  'profile.in'
+  'bash_logout.in'
+  '.textmate_init.in'
+  'npmrc.in'
+  'PKGBUILD.in'
+  'install.in'
+  'cygport.in'
+  'bats.in'
+  'ebuild.in'
+]
+'name': 'CMake Template Shell Script'
+'patterns': [
+  {
+    'include': 'source.cmake.template'
+  }
+  {
+    'comment': 'Shell source'
+    'include': 'source.shell'
+  }
+]
+'scopeName': 'source.cmake.template.shell'

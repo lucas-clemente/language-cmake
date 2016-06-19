@@ -1,0 +1,15 @@
+'fileTypes': [
+  'c.in'
+  'h.in'
+]
+'name': 'CMake Template C'
+'patterns': [
+  {
+    'include': 'source.cmake.template'
+  }
+  {
+    'comment': 'C source'
+    'include': 'source.c'
+  }
+]
+'scopeName': 'source.cmake.template.c'

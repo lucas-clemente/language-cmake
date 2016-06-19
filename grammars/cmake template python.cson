@@ -1,0 +1,27 @@
+'fileTypes': [
+  'cpy.in'
+  'gyp.in'
+  'gypi.in'
+  'kv.in'
+  'py.in'
+  'pyw.in'
+  'rpy.in'
+  'SConscript.in'
+  'SConstruct.in'
+  'Sconstruct.in'
+  'sconstruct.in'
+  'Snakefile.in'
+  'tac.in'
+  'wsgi.in'
+]
+'name': 'CMake Template Python'
+'patterns': [
+  {
+    'include': 'source.cmake.template'
+  }
+  {
+    'comment': 'Python source'
+    'include': 'source.python'
+  }
+]
+'scopeName': 'source.cmake.template.cmake'
