@@ -23,7 +23,7 @@
         'name': 'keyword.operator.cmake'
       '5':
         'name': 'string.unquoted.cmake'
-    'match': '([a-zA-Z0-9_\\-\\d]+)(:)(STRING|FILE|FILEPATH|BOOL|INTERNAL|STATIC)(\\=)(.*)'
+    'match': '([a-zA-Z0-9_\\-\\d]+)(:)(STRING|FILE|PATH|FILEPATH|BOOL|INTERNAL|STATIC)(\\=)(.*)'
     'name': 'variable.cmake'
   'comments':
     'patterns': [
