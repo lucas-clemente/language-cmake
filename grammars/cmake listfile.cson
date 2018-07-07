@@ -33,7 +33,7 @@
         'name': 'keyword.control.cmake'
       '2':
         'name': 'support.function.cmake'
-      '3':
+      '4':
         'name': 'punctuation.definition.parameters.begin.command.cmake'
     'comment': 'The command list is simply generated with:\n\t\t\t\tcmake --help-command-list | ruby /Library/Application\\ Support/TextMate/Bundles/Objective-C.tmbundle/Support/list_to_regexp.rb | pbcopy'
     'end': '(\\))'
